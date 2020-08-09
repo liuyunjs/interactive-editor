@@ -13,6 +13,10 @@
     "react-native-interactive",
     "interactive-editor"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyunjs/interactive-editor.git/packages/interactive-editor"
+  },
   "scripts": {
     "build": "rollup --config rollup.config.js"
   },
