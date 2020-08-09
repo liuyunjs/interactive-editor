@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "jsx": "react",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "rootDir": "./",
+    "outDir": "./",
+    "module": "ES2015"
+  },
+  "exclude": ["node_modules", "rollup.config.js", "lib/*", "tmp/*", "index.js", "index_back.tsx"]
+}
