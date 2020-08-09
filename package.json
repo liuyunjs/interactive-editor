@@ -1,7 +1,9 @@
 {
-  "name": "interactive_editor",
+  "name": "interactive-editor",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
+  "author": "liuyunjs",
+  "description": "一个带有可交互的 react-native 输入框",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -9,6 +11,17 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
+  "keywords": [
+    "react-native",
+    "react-native-at-editor",
+    "react-native-mention",
+    "react-native-mention-editor",
+    "react-native-at",
+    "at-editor",
+    "react-native-interactive-editor",
+    "react-native-interactive",
+    "interactive-editor"
+  ],
   "dependencies": {
     "react": "16.13.1",
     "react-native": "0.63.2"
